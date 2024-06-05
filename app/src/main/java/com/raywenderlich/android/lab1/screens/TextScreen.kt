@@ -27,7 +27,6 @@ fun TextScreen() {
     ) {
         MyText()
     }
-
     BackButtonHandler {
         FundamentalsRouter.navigateTo(Screen.Navigation)
     }
